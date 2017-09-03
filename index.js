@@ -34,3 +34,8 @@ function removeLastKitten(name){
   var newArray = kittens.slice(1);
   return newArray;
 };
+
+function removeLastKitten(name){
+  var newArray = kittens.slice(0);
+  return newArray;
+};
